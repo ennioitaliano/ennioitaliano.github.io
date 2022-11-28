@@ -6,5 +6,14 @@ export const SKILLS: Skill[] = [
     advanced: ['HTML', 'CSS', 'WordPress'],
     base: ['PHP', 'JavaScript'],
   },
-
+  {
+    field: 'Desktop',
+    advanced: ['C++', 'Qt'],
+    base: ['Java'],
+  },
+  {
+    field: 'Mobile',
+    advanced: [],
+    base: ['Java', 'Kotlin'],
+  },
 ];

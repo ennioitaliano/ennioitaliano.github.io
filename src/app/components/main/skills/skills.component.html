@@ -3,7 +3,6 @@
     <h2>And these are my skills</h2>
   </div>
   <div id="skills">
-    <!-- ciclare skills con parametri -->
-    <app-skill></app-skill>
+    <app-skill *ngFor="let skill of skills" [skill]="skill"></app-skill>
   </div>
 </section>

@@ -7,6 +7,5 @@ import { Skill } from '../Skill';
   styleUrls: ['./skill.component.scss']
 })
 export class SkillComponent {
-//Da finire
-
+  @Input() skill!: Skill;
 }

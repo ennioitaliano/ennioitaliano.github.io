@@ -8,6 +8,4 @@ import { Work } from '../Work';
 })
 export class WorkComponent {
   @Input() work!: Work;
-
-
 }
