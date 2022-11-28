@@ -1,0 +1,19 @@
+section {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: unset;
+}
+
+figure {
+  margin: unset;
+}
+
+#memoji {
+  width: 215px;
+}

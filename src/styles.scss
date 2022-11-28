@@ -1,1 +1,67 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+:root {
+    --color-bg: white;
+    --color-fg: black;
+    --color-ac: rgb(10,110,200);
+}
+
+.dark-mode {
+    --color-bg: black;
+    --color-fg: white;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    padding: 0 1.2rem;
+    font-family: "Roboto Mono", sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: clamp(1.75rem, 1.75rem + 1vw, 3rem);
+}
+
+h2 {
+    font-size: clamp(1.3rem, 1.3rem + 1vw, 1.75rem);
+    text-align: center;
+}
+
+h3 {
+    font-size: clamp(1.15rem, 1.15rem + 1vw, 1.25rem);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0 4rem;
+}
+
+a {
+    color: rgb(10, 110, 200);
+}
