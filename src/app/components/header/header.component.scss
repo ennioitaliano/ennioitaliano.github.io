@@ -10,3 +10,12 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  header {
+    padding: 1.5rem 0;
+  }
+}
