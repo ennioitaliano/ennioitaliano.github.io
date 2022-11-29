@@ -4,7 +4,6 @@
   align-items: center;
   margin-top: 1rem;
 
-
   a {
     padding: 0 2rem;
     font-size: clamp(1.4rem, 1.4rem + 1vw, 1.65rem);
@@ -12,6 +11,16 @@
 
     &:hover {
       color: var(--color-ac);
+    }
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .socials {
+    margin: unset;
+    a {
+      padding: 0 1.5rem;
     }
   }
 }

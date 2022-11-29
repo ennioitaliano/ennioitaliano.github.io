@@ -1,18 +1,19 @@
 <div class="single-work">
   <div class="single-work-title">
-      <h3><a class="titlelink" href="{{ work.url }}">{{ work.title }}</a></h3>
+    <h3><a class="titlelink" href="{{ work.url }}">{{ work.title }}</a></h3>
   </div>
   <div class="single-work-image"><img src="{{ work.imgUrl }}"></div>
   <div class="single-work-languages">
-      <app-list title="Languages" [contents]=work.languages></app-list>
-      <!--<p><b>Languages:</b> {{ fieldToString(work.languages) }}.</p>-->
+    <app-list title="Languages" [contents]=work.languages></app-list>
+    <!--<p><b>Languages:</b> {{ fieldToString(work.languages) }}.</p>-->
   </div>
   <div class="single-work-description">
-      <p> {{ work.description }} </p>
+    <p> {{ work.description }} </p>
   </div>
   <div class="single-work-icons">
-      <!-- <a href="{{ work.url }}" aria-label="Athlon gym website"><fa-icon [icon]="getIcon(work.url)"></fa-icon></a> -->
-      <a href="{{ work.url }}"><fa-icon [icon]="work.url.includes('github.com') ? faGithub : faGlobe"></fa-icon></a>
-
+    <!-- <a href="{{ work.url }}" aria-label="Athlon gym website"><fa-icon [icon]="getIcon(work.url)"></fa-icon></a> -->
+    <a href="{{ work.url }}">
+      <fa-icon [icon]="work.url.includes('github.com') ? faGithub : faGlobe"></fa-icon>
+    </a>
   </div>
 </div>
