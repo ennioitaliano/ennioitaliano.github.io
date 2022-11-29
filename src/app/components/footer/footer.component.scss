@@ -10,3 +10,12 @@ footer {
     margin-bottom: 1.15rem;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  footer {
+    padding: 1.5rem 0;
+  }
+}
