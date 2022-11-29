@@ -12,6 +12,10 @@ import { OpeningComponent } from './components/main/opening/opening.component';
 import { SkillsComponent } from './components/main/skills/skills.component';
 import { SkillComponent } from './components/main/skills/skill/skill.component';
 import { WorkComponent } from './components/main/works/work/work.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ListComponent } from './components/list/list.component';
+import { SocialsComponent } from './components/socials/socials.component';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +29,14 @@ import { WorkComponent } from './components/main/works/work/work.component';
     SkillsComponent,
     SkillComponent,
     WorkComponent,
+    ListComponent,
+    SocialsComponent,
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+
+  a {
+    padding: 0 2rem;
+    font-size: clamp(1.4rem, 1.4rem + 1vw, 1.65rem);
+    color: var(--color-fg);
+
+    &:hover {
+      color: var(--color-ac);
+    }
+  }
+}

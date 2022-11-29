@@ -1,7 +1,6 @@
-#resumelink {
+a {
   text-decoration: none;
-}
-
-#resumelink:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }

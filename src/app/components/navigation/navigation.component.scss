@@ -1,0 +1,15 @@
+nav {
+  a {
+    color: var(--color-fg);
+
+    &:hover {
+      color: var(--color-ac);
+    }
+  }
+}
+
+#worksnav,
+#skillsnav,
+#resumenav {
+  display: none;
+}

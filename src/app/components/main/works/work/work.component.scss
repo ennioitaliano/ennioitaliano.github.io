@@ -18,9 +18,13 @@
   span:hover {
     color: var(--color-fg);
   }
-  .fa {
+  fa-icon {
     margin-right: 1rem;
     font-size: clamp(1.4rem, 1.6rem + 1vw, 1.8rem);
+
+    &:hover {
+      color: var(--color-fg);
+    }
   }
 }
 

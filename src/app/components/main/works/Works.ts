@@ -11,7 +11,7 @@ export const WORKS: Work[] = [
   },
   {
     title: 'Personal Portfolio Website',
-    url: 'https://ennioitaliano.github.io',
+    url: 'https://github.com/ennioitaliano/html-portfolio',
     imgUrl: '../../../assets/htmlportfolio.png',
     languages: ['HTML', 'CSS', 'JavaScript'],
     description: 'The website you are currently on.',
