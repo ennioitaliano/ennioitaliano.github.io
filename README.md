@@ -5,5 +5,9 @@ You can see the final result at [ennioitaliano.github.io](https://ennioitaliano.
 
 ## TO-DO
 - [x] Desktop/responsive CSS
+- [ ] Change size to social icons in footer
+- [ ] Update projects
 - [ ] Accessibility
 - [ ] Enhanced dark mode
+  - [ ] Re-implement the old one
+  - [ ] Change memoji accordingly
