@@ -6,7 +6,7 @@ You can see the final result at [ennioitaliano.github.io](https://ennioitaliano.
 ## TO-DO
 - [x] Desktop/responsive CSS
 - [x] Change size to social icons in footer
-- [ ] Update projects
+- [x] Update projects
 - [ ] Accessibility
 - [ ] Enhanced dark mode
   - [ ] Re-implement the old one
