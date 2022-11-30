@@ -4,7 +4,7 @@ export const SKILLS: Skill[] = [
   {
     field: 'Web',
     advanced: ['HTML', 'CSS', 'WordPress'],
-    base: ['PHP', 'JavaScript'],
+    base: ['TypeScript', 'Angular', 'JavaScript', 'PHP'],
   },
   {
     field: 'Desktop',
