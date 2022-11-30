@@ -2,7 +2,7 @@ import { Work } from './Work';
 
 export const WORKS: Work[] = [
   {
-    title: 'Angular Portfolio Website',
+    title: 'Personal Portfolio Website',
     url: 'https://github.com/ennioitaliano/angular-portfolio',
     imgUrl: '../../../assets/htmlportfolio.png',
     languages: ['TypeScript', 'HTML', 'CSS'],
@@ -24,13 +24,6 @@ export const WORKS: Work[] = [
     languages: ['HTML', 'CSS', 'JavaScript'],
     description:
       'Responsive website for a gym in Padua, Italy. Users are able to see photos, prices, courses, location and contact informations about the gym.',
-  },
-  {
-    title: 'HTML Portfolio Website',
-    url: 'https://github.com/ennioitaliano/html-portfolio',
-    imgUrl: '../../../assets/htmlportfolio.png',
-    languages: ['HTML', 'CSS', 'JavaScript'],
-    description: 'Old HTML+CSS version of the website you are currently on.',
   },
   {
     title: 'Air Quality Charts',
