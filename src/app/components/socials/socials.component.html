@@ -1,6 +1,3 @@
 <div class="socials">
-  <a href="mailto:ennio.italiano@gmail.com" aria-label="Write an email to Ennio's address"><fa-icon [icon]="faEnvelope"></fa-icon></a>
-  <a href="https://github.com/ennioitaliano" aria-label="Ennio's GitHub profile"><fa-icon [icon]="faGithub"></fa-icon></a>
-  <a href="https://linkedin.com/in/ennioitaliano" aria-label="Ennio's LinkedIn profile"><fa-icon [icon]="faLinkedinIn"></fa-icon></a>
-  <a href="https://twitter.com/ennio_italiano" aria-label="Ennio's Twitter profile"><fa-icon [icon]="faTwitter"></fa-icon></a>
+  <a *ngFor="let social of socials" [style.font-size]="parent=='HEADER' ? fontSizeHeader : fontSizeFooter" href="{{ social.url }}" attr.aria-label={{social.alt}}><fa-icon [icon]="social.icon"></fa-icon></a>
 </div>
