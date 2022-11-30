@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./opening.component.scss']
 })
 export class OpeningComponent {
-
+darkMode : boolean = false;
 }
