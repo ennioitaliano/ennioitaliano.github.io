@@ -1,3 +1,7 @@
 <div class="socials">
-  <a *ngFor="let social of socials" [style.font-size]="parent=='HEADER' ? fontSizeHeader : fontSizeFooter" href="{{ social.url }}" attr.aria-label={{social.alt}}><fa-icon [icon]="social.icon"></fa-icon></a>
+  <a *ngFor="let social of socials" [style.font-size]="parent=='HEADER' ? fontSizeHeader : fontSizeFooter"
+    href="{{ social.url }}">
+    <!--attr.aria-label={{social.alt}}-->
+    <fa-icon [icon]="social.icon"></fa-icon>
+  </a>
 </div>
