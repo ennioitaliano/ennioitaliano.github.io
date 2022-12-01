@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs';
 })
 export class OpeningComponent {
   subscription!: Subscription;
-  darkMode: boolean = false;
+  darkMode: boolean = this.darkModeService.darkMode;
 
   constructor(private darkModeService: DarkModeService) {
     this.subscription = this.darkModeService
