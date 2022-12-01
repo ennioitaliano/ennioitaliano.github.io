@@ -8,6 +8,7 @@ You can see the final result at [ennioitaliano.github.io](https://ennioitaliano.
 - [x] Change size to social icons in footer
 - [x] Update projects
 - [ ] Accessibility
-- [ ] Enhanced dark mode
-  - [ ] Re-implement the old one
-  - [ ] Change memoji accordingly
+- [ ] Dark mode
+  - [x] Re-implement the old one
+  - [x] Change memoji accordingly
+  - [ ] Make it change based on user theme
