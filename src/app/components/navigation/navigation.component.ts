@@ -1,4 +1,6 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component } from '@angular/core';
+import { DarkModeService } from 'src/app/services/dark-mode.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-navigation',
@@ -6,5 +8,16 @@ import { Component, EventEmitter, Output } from '@angular/core';
   styleUrls: ['./navigation.component.scss'],
 })
 export class NavigationComponent {
-  @Output() darkMode = new EventEmitter();
+  subscription!: Subscription;
+  darkMode: boolean = false;
+
+  constructor(private darkModeService: DarkModeService) {
+    this.subscription = this.darkModeService
+      .onToggle()
+      .subscribe((value) => (this.darkMode = value));
+  }
+
+  toggleDarkMode() {
+    this.darkModeService.darkModeSwitcher();
+  }
 }

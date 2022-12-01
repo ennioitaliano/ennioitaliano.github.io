@@ -11,15 +11,9 @@ export class DarkModeService {
   constructor() {}
 
   darkModeSwitcher() {
-    if (this.darkMode) {
-      // emettere evento per far settare la proprietà darkMode di opening.ts a false
-      document.documentElement.classList.toggle('dark-mode');
-      //darkModeButton.innerHTML = 'Dark Mode';
-    } else {
-      // emettere evento per far settare la proprietà darkMode di opening.ts a false
-      document.documentElement.classList.toggle('dark-mode');
-      //darkModeButton.innerHTML = 'Light Mode';
-    }
+    document.documentElement.classList.toggle('dark-mode');
+    this.darkMode = !this.darkMode;
+    this.subject.next(this.darkMode);
   }
 
   onToggle(): Observable<boolean> {
