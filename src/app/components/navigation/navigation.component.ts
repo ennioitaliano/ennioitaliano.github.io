@@ -9,9 +9,10 @@ import { Subscription } from 'rxjs';
 })
 export class NavigationComponent {
   subscription!: Subscription;
-  darkMode: boolean = false;
+  darkMode: boolean = this.darkModeService.darkMode;
 
   constructor(private darkModeService: DarkModeService) {
+
     this.subscription = this.darkModeService
       .onToggle()
       .subscribe((value) => (this.darkMode = value));
