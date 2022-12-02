@@ -12,7 +12,7 @@ export class SocialsComponent {
   socials: Social[] = SOCIALS;
 
   fontSizeHeader = 'clamp(1.4rem, 1.4rem + 1vw, 1.65rem)';
-  fontSizeFooter = 'clamp(1.1rem, 1.1rem + 1vw, 1.2rem);';
+  fontSizeFooter = 'clamp(1.2rem, 1.2rem + 1vw, 1.4rem);';
 
   parent = this.elRef.nativeElement.parentElement.tagName;
 
