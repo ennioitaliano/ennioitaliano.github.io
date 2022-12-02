@@ -13,58 +13,39 @@ export class DarkModeService {
     console.log('Dark mode appena costruito ' + this.darkMode);
 
     this.darkModeSwitcher(this.darkMode);
-    //this.media.addEventListener('change', this.handleEvent);
   }
 
-  /*handleEvent() {
-    this.subject = new Subject<boolean>();
-
-    document.documentElement.classList.toggle('dark-mode');
-    this.darkMode = !this.darkMode;
-
-    console.log(
-      'DARK MODE SWITCHATA CAUSA CAMBIO TEMA\nIl tema è cambiato\ndarkMode è ' +
-        this.darkMode +
-        '\nsubject è ' +
-        this.subject
-    );
-    this.subject.next(this.darkMode);
-  }*/
-
   darkModeSwitcher(forces?: boolean) {
-    console.log('Dark mode prima dello switch ' + this.darkMode);
+    //console.log('Dark mode prima dello switch ' + this.darkMode);
 
-    switch (typeof forces) {
+    if (typeof forces == 'boolean') {
       // DARK MODE LETTA E ATTIVATA DAL COSTRUTTORE
-      case 'boolean':
-        document.documentElement.classList.toggle('dark-mode', forces);
+      document.documentElement.classList.toggle('dark-mode', forces);
 
-        console.log(
+      /* console.log(
           'DARK MODE LETTA E ATTIVATA DAL COSTRUTTORE\nForces è ' +
             typeof forces +
             '\ndarkMode è ' +
             this.darkMode +
             '\nsubject è ' +
             this.subject
-        );
+        );*/
+    }
+    // DARK MODE SWITCHATA MANUALMENTE
+    else if (typeof forces == 'undefined') {
+      document.documentElement.classList.toggle('dark-mode');
+      this.darkMode = !this.darkMode;
 
-        break;
-      // DARK MODE SWITCHATA MANUALMENTE
-      case 'undefined':
-        document.documentElement.classList.toggle('dark-mode');
-        this.darkMode = !this.darkMode;
+      /*console.log(
+        'DARK MODE SWITCHATA MANUALMENTE\nIl tema è cambiato\nForces è ' +
+          typeof forces +
+          '\ndarkMode è ' +
+          this.darkMode +
+          '\nsubject è ' +
+          this.subject
+      );*/
 
-        console.log(
-          'DARK MODE SWITCHATA MANUALMENTE\nIl tema è cambiato\nForces è ' +
-            typeof forces +
-            '\ndarkMode è ' +
-            this.darkMode +
-            '\nsubject è ' +
-            this.subject
-        );
-
-        this.subject.next(this.darkMode);
-        break;
+      this.subject.next(this.darkMode);
     }
   }
 
