@@ -9,6 +9,11 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  a {
+    color: var(--color-fg);
+    font-size: clamp(1.5rem, 1.6rem + 1vw, 1.5rem);
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

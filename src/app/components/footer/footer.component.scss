@@ -3,11 +3,14 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: clamp(0.75rem, 0.75rem + 1vw, 1rem);
   padding: 1rem 0;
 
   app-socials {
     margin-bottom: 1.15rem;
+  }
+
+  #copyright {
+    font-size: clamp(0.75rem, 0.75rem + 1vw, 1.1rem);
   }
 }
 
