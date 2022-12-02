@@ -41,14 +41,14 @@
   text-justify: inter-word;
 }
 
-.titlelink {
+/*.titlelink {
   color: var(--color-fg);
   text-decoration: none;
   &:hover {
     color: var(--color-ac);
     text-decoration: none;
   }
-}
+}*/
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
