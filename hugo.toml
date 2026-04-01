@@ -1,6 +1,6 @@
 baseURL = 'https://ennioitaliano.github.io/'
 locale = 'en-us'
-title = "Ennio's Portfolio"
+title = "Ennio Italiano"
 theme = 'papermod'
 
 [params.homeInfoParams]
