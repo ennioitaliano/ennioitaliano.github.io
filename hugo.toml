@@ -1,0 +1,30 @@
+baseURL = 'https://ennioitaliano.github.io/'
+locale = 'en-us'
+title = "Ennio's Portfolio"
+theme = 'papermod'
+
+[params.homeInfoParams]
+Title = "Hi, I'm Ennio 😄"
+Content = """
+- 🇮🇹 I'm a Computer Science student from Italy, also working as a developer for  platforms, mainly with Swift and SwiftUI.
+
+👨🏻‍💻 I also got my hands dirty with Java, C++, Qt, HTML, CSS, JavaScript, and TypeScript.
+
+💬 I am currently building a text messaging simulation, on the side, from scratch, and documenting the process in this blog.
+"""
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:ennio.italiano@gmail.com"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/ennioitaliano"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/ennioitaliano"
+
+[[params.socialIcons]]
+name = "cv"
+url = "https://drive.google.com/file/d/1w1-UtCAPCtXFiVMDiUeUaEpIS3vN2_7V/view?usp=sharing"
