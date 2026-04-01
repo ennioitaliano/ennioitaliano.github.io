@@ -1,13 +1,17 @@
-# Angular Portfolio
-This is just a copy of [HTML Portfolio](https://github.com/ennioitaliano/html-portfolio) but it's written using Angular.
+# Hugo Blog
 
-You can see the final result at [ennioitaliano.github.io](https://ennioitaliano.github.io) and the old (but visually identical) HTML+CSS version at [ennioitaliano.github.io/html-portfolio](https://ennioitaliano.github.io/html-portfolio).
+Personal portfolio site built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
-## TO-DO
-- [x] Desktop/responsive CSS
-- [x] Change size to social icons in footer
-- [x] Update projects
-- [x] Accessibility
-- [x] Dark mode
-  - [x] Re-implement the old one
-  - [x] Change memoji accordingly
+Live site: [ennioitaliano.github.io](https://ennioitaliano.github.io)
+
+## Run locally
+
+```bash
+hugo server -D
+```
+
+## Build
+
+```bash
+hugo
+```
