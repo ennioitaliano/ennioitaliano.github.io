@@ -3,6 +3,10 @@ locale = 'en-us'
 title = "Ennio Italiano"
 theme = 'papermod'
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [params.homeInfoParams]
 Title = "Hi, I'm Ennio 😄"
 Content = """
