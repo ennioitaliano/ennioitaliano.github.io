@@ -1,5 +1,5 @@
 +++
-title = 'Bulding a text messaging app simulation'
+title = 'Building a WhatsApp clone'
 date = 2026-04-02T14:45:00+01:00
 draft = false
 +++

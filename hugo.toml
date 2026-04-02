@@ -10,11 +10,9 @@ theme = 'papermod'
 [params.homeInfoParams]
 Title = "Hi, I'm Ennio 😄"
 Content = """
-- 🇮🇹 I'm a Computer Science student from Italy, also working as a developer for  platforms, mainly with Swift and SwiftUI.
+🇮🇹 I'm a Computer Science student based in Padua, Italy, also working as a developer for  platforms, mainly with Swift and SwiftUI.
 
-👨🏻‍💻 I also got my hands dirty with Java, C++, Qt, HTML, CSS, JavaScript, and TypeScript.
-
-💬 I am currently building a text messaging simulation, on the side, from scratch, and documenting the process in this blog.
+💬 I am currently building a real-time messaging system from scratch, and documenting the process in this blog.
 """
 
 [[params.socialIcons]]
